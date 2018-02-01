@@ -19,6 +19,7 @@ function getMovies(searchText){
             <div class="well text-center">
               <img src="${movie.Poster}">
               <h5>${movie.Title}</h5>
+              <h5>${movie.Year}</h5>
               <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
             </div>
           </div>
@@ -65,6 +66,7 @@ function getMovie(){
             </ul>
           </div>
         </div>
+        <br>
         <div class="row">
           <div class="well">
             <h3>Plot</h3>
@@ -74,6 +76,7 @@ function getMovie(){
             <a href="index.html" class="btn btn-default">Go Back To Search</a>
           </div>
         </div>
+        <br><br>
       `;
 
       $('#movie').html(output);
