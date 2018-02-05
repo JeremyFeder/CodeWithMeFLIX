@@ -14,10 +14,11 @@ function getMovies(searchText){
       let movies = response.data.Search;
       let output = '';
       $.each(movies, (index, movie) => {
+        const imgpath = (movie.Poster != 'N/A') ? movie.Poster : './imgs/NA.jpg';
         output += `
           <div class="col-md-3">
             <div class="well text-center">
-              <img src="${movie.Poster}">
+              <img src="${imgpath}">
               <h5>${movie.Title}</h5>
               <h5>${movie.Year}</h5>
               <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">Movie Details</a>
@@ -47,11 +48,11 @@ function getMovie(){
     .then((response) => {
       console.log(response);
       let movie = response.data;
-
+      const imgpath = (movie.Poster != 'N/A') ? movie.Poster : './imgs/NA.jpg';
       let output =`
         <div class="row">
           <div class="col-md-4">
-            <img src="${movie.Poster}" class="thumbnail">
+            <img src="${imgpath}" class="thumbnail">
           </div>
           <div class="col-md-8">
             <h2>${movie.Title}</h2>
