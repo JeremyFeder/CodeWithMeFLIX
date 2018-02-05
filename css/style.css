@@ -21,8 +21,14 @@
   background-color: #d60724;
 }
 
+.button {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #dedfe0;
+}
+
 h2 {
-  color: #abb0b3;
+  color: #dedfe0;
 }
 
 .navbar-brand {
