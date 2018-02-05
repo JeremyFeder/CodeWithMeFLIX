@@ -7,7 +7,7 @@ $(document).ready(() => {
 });
 
 function getMovies(searchText){
-  let url = "".concat('http://www.omdbapi.com?s=', searchText,'&apikey=', APIKEY2)
+  let url = "".concat('http://www.omdbapi.com?s=', searchText,'&apikey=', APIKEY)
   axios.get(url)
     .then((response) => {
       console.log(response);
@@ -41,7 +41,7 @@ function movieSelected(id){
 
 function getMovie(){
   let movieId = sessionStorage.getItem('movieId');
-  let url = "".concat('http://www.omdbapi.com?i=', movieId,'&apikey=', APIKEY2)
+  let url = "".concat('http://www.omdbapi.com?i=', movieId,'&apikey=', APIKEY)
 
   axios.get(url)
     .then((response) => {

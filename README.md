@@ -4,4 +4,4 @@ Of note: This relies on an API Key from the http://www.omdbapi.com/ movie databa
 
 Once you have your API key, please add the file "key.js" to the JS folder of this project with the following code in it:
 
-const APIKEY2 = '{{Your API KEY HERE, Between the curly braces, with the curly braces removed. KEEP the single quotes!}}';
+const APIKEY = '{{Your API KEY HERE, Between the curly braces, with the curly braces removed. KEEP the single quotes!}}';
