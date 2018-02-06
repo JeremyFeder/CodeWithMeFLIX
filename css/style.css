@@ -1,6 +1,7 @@
 #movies img {
   width: 70%;
   max-width: 250px;
+  margin-bottom: 7px;
 }
 
 #movie img {
@@ -20,23 +21,34 @@
 .jumbotron {
   /*background-color: #d60724;*/
   background: linear-gradient(#821524, red, #d60724);
+  border-radius: 5px 5px 5px 5px;
 }
 
 .button {
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 5px;
   background-color: #dedfe0;
 }
 
 h2 {
-  color: #dedfe0;
+  color: #f9f9f9;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.navbar {
+  margin-bottom: 10px;
 }
 
 .navbar-brand {
   font-size: 33px;
-  /*margin-top: -10px;*/
+  background: linear-gradient(#b9b9b9, #5d5757, #1b1a1a);
+  margin-left: 15px;
+  /*border-radius: 5px 5px 0px 0px;*/
 }
 
-.well {
-  text-align: center;
+.plot-left {
+  text-align: left;
 }

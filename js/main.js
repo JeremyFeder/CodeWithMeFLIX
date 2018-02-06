@@ -68,7 +68,7 @@ function getMovie(){
           </div>
         </div>
         <br>
-        <div class="row">
+        <div class="col-md-12 plot-left">
           <div class="well">
             <h3>Plot</h3>
             ${movie.Plot}
