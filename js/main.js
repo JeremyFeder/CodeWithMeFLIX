@@ -13,7 +13,7 @@ function getMovies(searchText){
       console.log(response);
       let movies = response.data.Search;
       let output = '';
-      $.each(movies, (index, movie) => {
+      $.each(movies, (i, movie) => {
         const imgpath = (movie.Poster != 'N/A') ? movie.Poster : './imgs/NA.jpg';
         output += `
           <div class="col-md-3">
