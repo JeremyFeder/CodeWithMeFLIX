@@ -69,10 +69,10 @@ function getMovie(){
         </div>
         <br>
         <div class="col-md-12 plot-left">
-          <div class="well">
+          <div class="well2">
             <h3>Plot</h3>
             ${movie.Plot}
-            <hr>
+            <br><br>
             <a href="http://imdb.com/title/${movie.imdbID}" target="_blank" class="btn btn-primary">View IMDB</a>
             <a href="index.html" class="btn btn-default">Go Back To Search</a>
           </div>
