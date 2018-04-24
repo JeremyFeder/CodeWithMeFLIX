@@ -31,6 +31,15 @@
   border: 1px solid grey;
 }
 
+.button2 {
+  /* margin-top: 15px; */
+  padding: 2px 4px 3px 4px;
+  border-radius: 5px;
+  background-color: #dedfe0;
+  border: 1px solid grey;
+  color: #333333;
+}
+
 .btn-primary {
     background: linear-gradient(#821524, red, #d60724);
     /* box-shadow: 2px 2px 3px #b3b3b3; */
@@ -91,10 +100,8 @@ body {
 
 .navbar-brand {
   font-size: 33px;
-  /* background: linear-gradient(#868282, #5d5757, #1b1a1a); */
   margin-left: 15px;
   color: white;
-  /*border-radius: 5px 5px 0px 0px;*/
 }
 
 .plot-left {
